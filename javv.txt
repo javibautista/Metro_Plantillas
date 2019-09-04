@@ -1,0 +1,265 @@
+    1  top
+    2  sudo top
+    3  ps
+    4  ps a
+    5  ps u
+    6  ps au
+    7  ps x
+    8  ps x |more
+    9  ps aux |more
+   10  id -nG
+   11  docker run hello-world
+   12  docker search ubuntu
+   13  docker pull ubuntu
+   14  docker images
+   15  docker run -it ubuntu
+   16  docker ps
+   17  docker ps -a
+   18  docker ps -l
+   19  docker search python
+   20  docker run python
+   21  docker ps -a
+   22  docker ps 
+   23  docker run ubuntu
+   24  docker help
+   25  docker stop ubuntu
+   26  docker ps
+   27  docker ps -a
+   28  history | grep docker
+   29  docker run -it ubuntu
+   30  docker image ls
+   31  docker ps
+   32  docker ps -a
+   33  docker run -d -P --name=apache-1 bitnami/apache
+   34  docker ps .a
+   35  docker ps -a
+   36  sudo docker run -d -P --name=apache-1 bitnami/apache
+   37  sudo docker run -d -P --name=apache-2 bitnami/apache
+   38  sudo docker ps 
+   39  sudo docker ps -a
+   40  sudo service docker status
+   41  sudo docker run -dit --name tecmint-web -p 8080:80 -v /home/user/website/:/usr/local/apache2/htdocs/ httpd:2.4
+   42  python3
+   43  sudo apt install python3-psutil
+   44  python3
+   45  sudo python3
+   46  sudo docker ps
+   47  sudo mkdir /home/user/website/
+   48  sudo pluma /home/user/website/docker.html
+   49  sudo kill -9 2344
+   50  sudo vim.tiny /etc/apt/apt.conf.d/10periodic 
+   51  sudo vim.tiny /etc/apt/apt.conf.d/20auto-upgrades 
+   52  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   53  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   54  sudo apt update
+   55  apt-cache policy docker-ce
+   56  sudo apt-cache policy docker-ce
+   57  sudo apt install docker-ce
+   58  sudo add-apt-repository "deb [arch=i386] https://download.docker.com/linux/ubuntu bionic stable"
+   59  sudo apt-cache policy docker-ce
+   60  sudo apt search docker
+   61  sudo apt install docker-compose
+   62  docker
+   63  sudo usermod -aG docker administrador
+   64  id -nG
+   65  sudo adduser administrador docker
+   66  su - administrador
+   67  yes > top
+   68  top
+   69  htop
+   70  sudo apt install htop
+   71  htop
+   72  yes > /dev/null &
+   73  jobs
+   74  fg %1
+   75  jobs
+   76  bg %1
+   77  jobs
+   78  man usermod
+   79  sudo apt update
+   80  sudo apt upgrade
+   81  history
+   82  tmux lsb
+   83  tmux exitbbbb
+   84  c
+   85  ctrl-b c
+   86  python --version
+   87  python3 --version
+   88  sudo apt install virtualwrapper
+   89  pip --version
+   90  python3.6 -m pip --version
+   91  python3.6 -m pip
+   92  which python3.6
+   93  python3.6 get-pip.py --user
+   94  pip install python3-utils
+   95  sudo apt install python-pip
+   96  python3.6 get-pip.py --user
+   97  python3 get-pip.py --user
+   98  pip install distutils644
+   99  python3.6 get-pip.py --user
+  100  pip install distutils.util
+  101  pip install python3-distutils
+  102  python3.6 get-pip.py --user
+  103  sudo apt autoremove
+  104  python3.6 get-pip.py --user
+  105  python3 -m pip install --upgrade pip setuptools wheel
+  106  python3.6 get-pip.py --user
+  107  python3.6 -m pip
+  108  python3.6 -m pip --version
+  109  sudo apt install virtualenvwrapper
+  110  sudo apt install tmux
+  111  tmux
+  112  python3.6 -m pip --version
+  113  workon
+  114  sudo apt install virtualenvwrapper
+  115  sudo apt update
+  116  sudo apt upgrade
+  117  sudo apt install virtualenvwrapper
+  118  python3.6 -m pip --version
+  119  mkvirtualenv tutorial
+  120  mkvirtualenv -p /usr/bin/python3.6 tutorial
+  121  sudo apt /etc/apt/sources.list
+  122  sudo nano /etc/apt/sources.list
+  123  lsb_release -a
+  124  lsb_release -d
+  125  sudo apt-get remove install docker-engine docker.io
+  126  sudo apt-get install docker docker-engine docker.io
+  127  pip --version
+  128  sudo apt install python3-pip
+  129  sudo apt install virtualenvwrapper
+  130  sudo apt update
+  131  sudo pip install virtualenvwrapper
+  132  sudo pip install virtualenv
+  133  sudo python3-pip install virtualenvwrapper
+  134  which python3
+  135  which python3.6
+  136  cd tuto
+  137  mkdir tuto
+  138  cd tuto
+  139  virtualenv env
+  140  source env/bin/activate
+  141  mkvirtualenv -p /usr/bin/python3.6 tuto
+  142  deactivate
+  143  mkvirtualenv -p /usr/bin/python3.6 tuto
+  144  cd
+  145  mkvirtualenv -p /usr/bin/python3.6 tuto
+  146  sudo apt install python3.6-pip
+  147  python3.6 get-pip.py --user ipython docopt moviepy
+  148  sudo apt install virtualenvwrapper
+  149  sudo apt remove virtualenvwrapper
+  150  mkvirtualenv tuto
+  151  mkvirtualenv -p ~/usr/bin/python3.6 tuto
+  152  cd .virtualenvs/
+  153  cd tuto
+  154  workon tuto
+  155  python
+  156  deactivate
+  157  cd
+  158  ls
+  159  python3 -i lista_class.py 
+  160  python3 funciones_recursivas_arboles.py
+  161  ls
+  162  cls
+  163  cl
+  164  python3 funciones_recursivas_arboles.py
+  165  python3.6 get-pip.py --userA
+  166  ls
+  167  sudo apt remove virtualenvwrapper
+  168  sudo apt remove virtualenv
+  169  sudo apt-get remove python-pip python-dev
+  170  which python3.6
+  171  pip --version
+  172  apt-get --help
+  173  pip --help
+  174  pip freeze
+  175  sudo apt update
+  176  sudo apt upgrade
+  177  sudo apt autoremove
+  178  pip --version
+  179  pip freeze
+  180  python3.6 freeze
+  181  python3.6 --version
+  182  pip3 --version
+  183  sudo apt-get install python3-pip
+  184  sudo pip3 install virtualenvwrapper
+  185  sudo pip install virtualenvwrapper
+  186  pip3 --version
+  187  sudo pip3 install virtualenvwrapper
+  188  sudo python3 -m pip install --upgrade pip==9.2.2
+  189  sudo python3 -m pip install --upgrade pip==9.0.3
+  190  sudo pip install virtualenvwrapper
+  191  update-alternatives --list python3
+  192  update-alternatives --list python
+  193  update-alternatives
+  194  which python
+  195  which python3.6
+  196  mkvirtualenv practica2
+  197  cd ~/usr
+  198  cd /usr
+  199  cd /bin
+  200  cd /python3.6
+  201  sudo pip remove virtualenvwrapper
+  202  sudo apt update
+  203  mkvirtualenv practica2
+  204  which python3.6
+  205  mkvirtualenv practica2
+  206  git clone https://github.com/mgaitan/metrodeclaraciones.git
+  207  sudo pip install virtualenvwrapper
+  208  vim .bashrv
+  209  gedit .bashrc
+  210  pluma .bashrc
+  211  mkdir .virtualenvs
+  212  mkdirs lab
+  213  mkdir lab
+  214  source .bashrc 
+  215  pluma .bashrc
+  216  source .bashrc 
+  217  sudo pip uninstall virtualenvwrapper
+  218  pluma .bashrc
+  219  sudo apt install virtualenvwrapper
+  220  which python3
+  221  which python3.6
+  222  mkvirtualev metrodeclaraciones
+  223  mkvirtualenv metrodeclaraciones
+  224  mkvirtualenv -p /usr/bin/python3.6 metrodeclaraciones
+  225  deactivate 
+  226  which python3.6
+  227  cat `which python3.6`
+  228  62;c62;c62;c62;c62;c62;c62;c
+  229  reset
+  230  workon metrodeclaraciones
+  231  cd metrodeclaraciones/
+  232  ls
+  233  python
+  234  python3
+  235  which python3.6
+  236  python3.6
+  237  mkvirtualenv -p /usr/bin/python3.6 md
+  238  python
+  239  which python
+  240  cd metrodeclaraciones/
+  241  ls
+  242  pip install -r requirements.txt 
+  243  mkvirtualenv -p /usr/local/lib/3.6 metrodeclaraciones
+  244  mkvirtualenv -p /usr/bin/python3.6 md
+  245  cd 
+  246  cd .virtualenv/md
+  247  cd .virtualenvs/md
+  248  cd metrodeclaraciones/
+  249  pip install -r requirements.txt
+  250  python manage.py migration
+  251  python manage.py migrations
+  252  python manage.py migrate
+  253  python manage.py runserver
+  254  cd 
+  255  cd metrodeclaraciones/
+  256  pip install -r requirements.txt
+  257  python manage.py migrate
+  258  python manage.py runserver
+  259  python manage.py createsuperuser
+  260  python manage.py runserver
+  261  python manage.py migrate
+  262  python manage.py makemigrations
+  263  python manage.py runserver
+  264  deactivate
+  265  history >javv.txt

@@ -1,5 +1,7 @@
-#django
-db.sqlite3
+*.pyc
+__pycache__
+*py~
+.gitignore~
 *xml
 *odt
 

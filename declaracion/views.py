@@ -5,6 +5,8 @@ from django.views import generic
 from django.views.generic import edit
 from .models import Declaracion
 from .forms import DeclaracionForm
+from django.conf import settings
+import os
 
 from django_weasyprint import WeasyTemplateResponseMixin
 
@@ -39,7 +41,17 @@ class UpdateView(BaseView, edit.UpdateView):
 
 class DeclaracionHTML(generic.DetailView):
     model = Declaracion
-    template_name = 'declaracion/declaracion.html'
+    
+    def get_template_names(self):
+        declaracion=self.get_object()
+        #if objeto.plantilla == 'nueva':
+         #   return ['declaracion/declaracion2.html']
+        #else:
+            #return ['declaracion/declaracion.html']
+        plantilla =str(declaracion.plantilla.archivo)
+        plantilla =os.path.join(settings.MEDIA_ROOT,plantilla)
+        return [plantilla]
+       
 
 
 class DeclaracionPDF(WeasyTemplateResponseMixin, DeclaracionHTML):

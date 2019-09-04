@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     'declaraciones.sindicatodelsubte.com.ar',
+    '127.0.0.1',
 
     # legacy domain
     'declaraciones.metrodelegados.com.ar',
@@ -69,10 +70,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'metrodeclaracion.urls'
 
+MEDIA_ROOT= os.path.join(BASE_DIR,'archivos')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [MEDIA_ROOT],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -84,6 +86,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'metrodeclaracion.wsgi.application'
 
