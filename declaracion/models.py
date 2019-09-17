@@ -35,7 +35,8 @@ class Plantilla(models.Model):
     # unique: que no deje repetir el nombre  
     nombre = models.CharField(max_length=100,unique=True)
     # deja subir archivos desde el admin
-    archivo= models.FileField(upload_to='', max_length=200)
+    #archivo= models.FileField(upload_to='', max_length=200)
+    archivo= models.TextField()
 
     #devuelve el string de un objeto
     def __str__(self):
